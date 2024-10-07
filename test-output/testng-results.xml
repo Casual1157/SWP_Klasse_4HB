@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T17:14:35 CEST" name="Default suite" finished-at="2024-10-07T17:14:35 CEST" duration-ms="78">
+    <groups>
+    </groups>
+    <test started-at="2024-10-07T17:14:35 CEST" name="Default test" finished-at="2024-10-07T17:14:35 CEST" duration-ms="78">
+      <class name="testNG.MyMathTest">
+        <test-method signature="testAddition()[pri:0, instance:testNG.MyMathTest@793f29ff]" started-at="2024-10-07T17:14:35 CEST" name="testAddition" finished-at="2024-10-07T17:14:35 CEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testDivision()[pri:0, instance:testNG.MyMathTest@793f29ff]" started-at="2024-10-07T17:14:35 CEST" name="testDivision" finished-at="2024-10-07T17:14:35 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testMultiplication()[pri:0, instance:testNG.MyMathTest@793f29ff]" started-at="2024-10-07T17:14:35 CEST" name="testMultiplication" finished-at="2024-10-07T17:14:35 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testSubtraction()[pri:0, instance:testNG.MyMathTest@793f29ff]" started-at="2024-10-07T17:14:35 CEST" name="testSubtraction" finished-at="2024-10-07T17:14:35 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+      </class> <!-- testNG.MyMathTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
