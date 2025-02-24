@@ -1,0 +1,15 @@
+package onlineAuction;
+
+public class BidderB implements Bidder {
+    private String name;
+
+    public BidderB(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void update(String itemName, double newBid) {
+        System.out.println("[" + name + "] received update: " + itemName + " current bid is now " + newBid);
+    }
+
+}
