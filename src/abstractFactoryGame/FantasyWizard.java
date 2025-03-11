@@ -4,7 +4,7 @@ public class FantasyWizard extends Wizard{
 
 	@Override
 	void create() {
-		System.out.println("Fantasie Magier wurde erstellt");
+		System.out.println("Fantasy Wizard is created");
 	}
 
 }
