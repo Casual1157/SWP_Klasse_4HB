@@ -44,14 +44,13 @@ public class GameOfLife {
             while (true) {
                 System.out.print("Input the row: ");
                 int amount1 = scan.nextInt();
-                if (amount1 <= -1) break; //Wenn der eingegbene Zahl kleiner als Null ist ==> abbrechen
+                if (amount1 == -1) break; //Wenn der eingegbene Zahl -1 ist ==> abbrechen
                 if (amount1 >= row) {//Wenn der eingegebene Zahl zu groß für die Gitter ist ==> benachrichtigen und nochmal eingeben
                     System.err.println("TOO BIG");
                     continue;
                 }
                 System.out.print("Input the column: ");
                 int amount2 = scan.nextInt();
-                if (amount2 <= -1) break;
                 if (amount2 >= column) {
                     System.err.println("TOO BIG");
                     continue;
